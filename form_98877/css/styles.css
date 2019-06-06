@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+.topnav {
+    background-color: rgb(40, 40, 140);
+    width: 110px;
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+    float: right;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+}
+
+.topnav:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav:hover a {
+    color: black;
+    cursor: pointer;
+}
+
+.main {
+    background-color: white;
+}
+
+.main form {
+    padding: 10px;
+}
+
+table {
+    background-color: white;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-style: border-collapse;
+    border: 1px solid;
+    padding: 10px;
+}
+
+table button[type='submit'] {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cell-form {
+    border: none;
+}
+
+.main form input[type='text'] {
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.main form input[type='submit'] {
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.bio {
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+}
+
+
